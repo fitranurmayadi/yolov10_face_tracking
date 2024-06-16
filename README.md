@@ -14,7 +14,7 @@ This project involves:
 ## Project Workflow
 
 1. **Initial Face Detection Experiments:**
-   - Tried using OpenCV's Haar Cascade algorithm for face detection but found the results unsatisfactory.
+   - Tried using OpenCV's Haar Cascade algorithm for face detection.
    - Explored YOLOv8 using a pretrained model from [akanametov's YOLO-Face](https://github.com/akanametov/yolo-face) with promising results.
 
 2. **Dataset and Model Training:**
