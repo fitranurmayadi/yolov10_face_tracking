@@ -1,6 +1,6 @@
 # Face Tracking using YOLOv10 and PID Algorithm
 
-This repository contains the code for a face tracking system developed using YOLOv10 and a PID algorithm. The project utilizes a computer with a USB camera, two servo motors, and an ESP32C3-XIAO to control the servos.
+This repository contains the code for a face tracking system developed using YOLOv10 and a PID algorithm. The project utilizes a computer with a USB camera, two servo motors, and an Xiao-ESP32C3 to control the servos.
 
 ## Project Overview
 
@@ -31,10 +31,14 @@ This project involves:
 
 The project demonstrates effective face tracking using YOLOv10 and a PID algorithm. The integration of the bounding box center points from YOLOv10 detections with servo movements provides smooth and accurate tracking.
 
+#See on Youtube
+[Comparison](https://www.youtube.com/watch?v=AQaKaxn0tus)
+[Face Tracking](https://www.youtube.com/watch?v=R1tLrp82sE0)
+
 ## Repository Contents
 
-- [training](https://github.com/fitranurmayadi/yolov10_face_tracking/tree/main/Training%20yolov10): Scripts for training the YOLOv10 model.
-- [inference](https://github.com/fitranurmayadi/yolov10_face_tracking/tree/main/face_tracking_yolov10): Scripts for running inference on the trained model.
+- [Training](https://github.com/fitranurmayadi/yolov10_face_tracking/tree/main/Training%20yolov10): Scripts for training the YOLOv10 model.
+- [Inference](https://github.com/fitranurmayadi/yolov10_face_tracking/tree/main/face_tracking_yolov10): Scripts for running inference on the trained model.
 - [Control](https://github.com/fitranurmayadi/yolov10_face_tracking/tree/main/ServoXY_Serial): Code for integrating the detection results with servo control.
 
 ## Getting Started
